@@ -1,16 +1,18 @@
-body{
-  background-image: url('img/esc.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
+
+.imagem img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.img img{
-  width: 50%;
+.img{
+  width: 100%;
 }
-
-.img:hover,
-  .img:focus,
- .img:active {
+.cards:hover,
+  .cards:focus,
+ .cards:active {
   color: #0070f3;
   border-color: #0070f3;
 }
@@ -41,10 +43,6 @@ body{
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-}
-
-.img{
-  width: 100%;
 }
 
 

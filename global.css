@@ -15,7 +15,7 @@ body {
 .letra2{
 	font-size: 30pt;
 	font-family: 'Great Vibes', cursive;
-	color: gray;
+	color: #363636;
 }
 .letra3{
 	font-size: 50pt;
@@ -29,6 +29,16 @@ body {
 	font-size: 25pt;
 	font-family: 'Monsieur La Doulaise', cursive;
 }
+.letra4ab{
+	color: #363636;
+	font-size: 30pt;
+	font-family: 'Monsieur La Doulaise', cursive;
+}
+.letra4ac{
+	color: #1C1C1C;
+	font-size: 50pt;
+	font-family: 'Monsieur La Doulaise', cursive;
+}
 .letra5{
 	font-size: 25pt;
 	color: #414141;
@@ -39,7 +49,7 @@ body {
 	color: black;
 }
 
-.letra5b{
+.letra5ba{
 	font-size: 30pt;
 	font-family: 'Parisienne', cursive;
  	display: block;
@@ -50,6 +60,21 @@ body {
     cursor: pointer;
     width: 100%;
     margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.letra5abrir{
+	font-size: 30pt;
+	font-family: 'Parisienne', cursive;
+ 	display: block;
+    background-image: url('img/bras.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    outline: 0;
+    width: 100%;
+    cursor: pointer;
     text-align: center;
     border-radius: 15px;
 }
