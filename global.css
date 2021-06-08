@@ -73,7 +73,7 @@ body {
     text-align: center;
     border-radius: 15px;
 }
-.imagem{
+/**.imagem{
 
 	background-image: url('img/bras.png');
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ body {
     background-size: contain;
     font-size: 33pt;
 
-}
+}**/
 
 .letra5abrir{
 	font-size: 30pt;
