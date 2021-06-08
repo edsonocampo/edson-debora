@@ -22,7 +22,7 @@ body {
 	font-family: 'Ruthie', cursive;
 }
 .letra4{
-	font-size: 35pt;
+	font-size: 36pt;
 	font-family: 'Monsieur La Doulaise', cursive;
 }
 .letra4a{
@@ -44,7 +44,11 @@ body {
 	color: #414141;
 	font-family: 'Parisienne', cursive;
 }
-
+.letra5cont{
+	font-size: 50pt;
+	color: #414141;
+	font-family: 'Parisienne', cursive;
+}
 .dest{
 	color: black;
 }
