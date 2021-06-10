@@ -31,8 +31,9 @@ body {
 }
 .letra4ab{
 	color: #363636;
-	font-size: 20pt;
-	font-family: 'Monsieur La Doulaise', cursive;
+	font-size: 18.5pt;
+	font-family: 'Great Vibes', cursive;
+	word-spacing: 1px;
 }
 .letra4ac{
 	color: #1C1C1C;
@@ -40,14 +41,47 @@ body {
 	font-family: 'Monsieur La Doulaise', cursive;
 }
 .letra5{
-	font-size: 25pt;
-	color: #414141;
+  color: blue;
+	font-size: 15pt;
 	font-family: 'Parisienne', cursive;
+  font-weight: 600;
+  float: left;
+}
+.letra5voltar{
+  float: left;
+  color: #6959CD;
+  font-size: 15pt;
+  font-family: 'Parisienne', cursive;
+  font-weight: 600;
+}
+.letra5inicio{
+  color: #6959CD;
+  font-size: 15pt;
+  font-family: 'Parisienne', cursive;
+  font-weight: 600;
+}
+.letra5proxima{
+  color: #6959CD;
+  font-size: 15pt;
+  font-family: 'Parisienne', cursive;
+  font-weight: 600;
+  float: right;
+}
+.letra5proximafim{
+  color: gray;
+  font-size: 15pt;
+  font-family: 'Parisienne', cursive;
+  font-weight: 600;
+  float: right;
+  pointer-events: inherit;
 }
 .letra5a{
 	font-size: 20pt;
 	color: #414141;
 	font-family: 'Parisienne', cursive;
+}
+.letra6 b{
+  color: red;
 }
 .letra5cont{
 	font-size: 50pt;
@@ -84,8 +118,6 @@ body {
 }**/
 
 .letra5abrir{
-	font-size: 30pt;
-	font-family: 'Parisienne', cursive;
  	display: block;
     background-image: url('img/bras.png');
     background-repeat: no-repeat;
@@ -95,8 +127,51 @@ body {
     width: 100%;
     cursor: pointer;
     text-align: center;
-    border-radius: 15px;
+    color: #6959CD;
+    line-height: 95px;
 }
+.fonte{
+	font-size: 30pt;
+	font-family: 'Parisienne', cursive;
+
+}
+
+
+
+/**
+
+.divLeft {
+    width: 100%;
+    position: relative;
+   
+}
+
+#spaceText {
+    padding-right: 14px;
+}
+
+#photo {
+    width: 500px;
+
+}
+.textDiv{
+	font-size: 50pt;
+	font-family: 'Monsieur La Doulaise', cursive;
+   position: absolute;
+   top: 30%;
+   left: 25%;
+   font-weight: 600;
+   letter-spacing: 4px;
+   /*cor apenas para exmplo
+   color: black;
+   line-height: 1;
+}
+
+.e {
+	font-size: 25pt;
+	line-height: 3;
+}*/
+
 
 a {
   color: inherit;

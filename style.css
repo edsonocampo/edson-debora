@@ -10,6 +10,7 @@
 .img{
   width: 100%;
 }
+
 .cards:hover,
   .cards:focus,
  .cards:active {
@@ -60,21 +61,17 @@ h3{
 }
 .formulario{
     width: 400px;
-    padding: 30px;
     border:1px solid #ccc;
 }
-.formulario p{
-    width: 100%;
-    font-size: 1.5em;
-}
+
 .field{
     width: 100%;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 .field label, 
 .field span{
     padding-left: 10px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     display: block;
     width: 100%;
 }
@@ -88,7 +85,7 @@ input[type=email],
 textarea{
     width: 100%;
     padding-left: 10px;
-    height: 50px;
+    height: 35px;
     line-height: 30px;
     border-radius: 15px;
     border: 1px solid #9A9A9A;
@@ -100,14 +97,15 @@ input#nao{
 textarea{
     line-height: 20px;
     padding: 10px;
-    height: 90px;
+    height: 45px;
     resize: none;
 }
+
 input[type=submit]{
   font-family: 'Parisienne', cursive;
     display: block;
     background-color: #ccc;
-    height: 50px;
+    height: 40px;
     border: none;
     outline: 0;
     cursor: pointer;
@@ -118,5 +116,70 @@ input[type=submit]{
 }
 
 input[value=Enviar]{
-  font-size: 23pt;
+  font-size: 18pt;
+}
+
+
+
+
+
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-height: 60px;
+  font-size: 22px;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: black;
+  background: white;
+  border: none;
+  border-radius: 1000px;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+
+.button:hover, .button:focus {
+  color: black;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #836FFF;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
 }
